@@ -21,6 +21,13 @@ code {
   border: 5px solid black;
   height: 300px;
 }
+@media only screen and (max-width:600px) {
+  .row{
+    margin-top: 2.5px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  }
+}
 input{
   width: 90%;
 }
